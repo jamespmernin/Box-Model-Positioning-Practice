@@ -2,14 +2,27 @@
 <html>
 
 <head>
-    <title>Box Model</title>
-    <link href="styles.css" rel="stylesheet">
+  <title>Box Model</title>
+  <link href="./styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <div id="white-space">
+    <div id="black-border">
+      <header id="barrier">Header</header>
+      <main>
+        <div id="blue-fill">
+          <p id="inline-content">Here is <span class="some">some</span>
+            <span class="inline">inline</span> content.</p>
+          <p class="block-content">block</p>
+          <p class="block-content">block</p>
+          <p class="inline-block left">inline-block</p>
+          <p class="inline-block right">inline-block</p>
+        </div>
+      </main>
+      <footer id="barrier">Footer</footer>
+    </div>
+  </div>
 </body>
 
 </html>
